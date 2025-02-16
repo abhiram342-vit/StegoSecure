@@ -22,10 +22,18 @@ pip install opencv-python
 6. The script extracts the message and prints it.
 
 ## Usage
-Run the script and follow the prompts:
+### Clone the Repository
+```sh
+git clone https://github.com/abhiram342-vit/StegoSecure.git
+cd StegoSecure
+```
+
+### Run the Script
 ```sh
 python script.py
 ```
+
+Follow the prompts to enter a secret message and passcode. The encoded image will be saved as `encryptedImage.jpg`. To decrypt, enter the correct passcode when prompted.
 
 ## Code Explanation
 - **Encoding**: Each character in the message is stored in pixel values.
@@ -46,4 +54,7 @@ Decryption message: Hello
 - Ensure the image path is correct before running the script.
 - The method used is basic and does not provide strong security.
 - Image modifications are minimal but detectable.
+
+## Repository
+Find the project on GitHub: [StegoSecure](https://github.com/abhiram342-vit/StegoSecure.git)
 
